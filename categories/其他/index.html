@@ -224,6 +224,11 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
+                                <a id="/2022/06/25/centos7%E6%90%AD%E5%BB%BA%E6%B3%B0%E6%8B%89%E7%91%9E%E4%BA%9Amod%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="leancloud_visitors" data-flag-title="Centos7搭建泰拉瑞亚mod服务器">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="leancloud-visitors-count"> </span> 次阅读
+                                </a>
+                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -277,6 +282,11 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
+                                <a id="/2022/06/21/%E6%89%8B%E6%9C%BA%E5%88%B7%E6%9C%BA%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%B8%80%EF%BC%89/" class="leancloud_visitors" data-flag-title="手机root学习（一）">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="leancloud-visitors-count"> </span> 次阅读
+                                </a>
+                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -329,6 +339,11 @@ Web开发路线图：https://github.com/ccloli/developer-roadmap-zh-CN
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
+                                <a id="/2022/06/03/%E8%B5%84%E6%BA%90%E6%95%B4%E5%90%88/" class="leancloud_visitors" data-flag-title="资源整合">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="leancloud-visitors-count"> </span> 次阅读
+                                </a>
+                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -380,6 +395,11 @@ Web开发路线图：https://github.com/ccloli/developer-roadmap-zh-CN
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
+                                <a id="/2022/03/21/%E4%B8%96%E7%95%8C%EF%BC%8C%E4%BD%A0%E5%A5%BD/" class="leancloud_visitors" data-flag-title="世界，你好">
+                                    <i class="fa fa-eye"></i>
+                                    <span class="leancloud-visitors-count"> </span> 次阅读
+                                </a>
+                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
@@ -400,6 +420,30 @@ Web开发路线图：https://github.com/ccloli/developer-roadmap-zh-CN
 
     <div class="hidden">
         <!-- 加载文章阅读对应的统计功能，评论自带的那种 -->
+        
+            <div id="v-comments" class="post-comments bg-image"></div>
+<script>
+    var load_comm = () => {
+        const init = () => {
+            new Valine({
+                el: '#v-comments',
+                appId: 'j6aNg12qem6yJo43IezXCqmU-gzGzoHsz',
+                appKey: '1PI2U9Q9gs4t0Vd1BFeHLbxI',
+                visitor: true,
+                enableQQ: true,
+                path: '/categories/%E5%85%B6%E4%BB%96/index.html'
+            });
+        }
+        if (typeof Valine === 'undefined') {
+            const src = 'https://unpkg.com/valine/dist/Valine.min.js';
+            $.getScript(src, init);
+        } else {
+            init();
+        }
+    };
+</script>
+<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://valine.js.org/">comments powered by Valine.</a></noscript>
+
         
     </div>
 
